@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf21d64-80fe-4062-92b7-2c093b213188" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/rpc/RPCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/rpc/RPCUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,53 +10,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/rpc/RPCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
+            <state relative-caret-position="561">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Connection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessageConfig.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -76,6 +53,7 @@
         <option value="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Connection.java" />
         <option value="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java" />
         <option value="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingServer.java" />
+        <option value="$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/rpc/RPCUtils.java" />
       </list>
     </option>
   </component>
@@ -154,6 +132,16 @@
               <item name="dat110" type="462c0819:PsiDirectoryNode" />
               <item name="messaging" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Startkode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Startkode" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="hvl" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,6 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -189,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581178352286</updated>
-      <workItem from="1581178355041" duration="1726000" />
+      <workItem from="1581178355041" duration="2701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1726000" />
+    <option name="totallyTimeSpent" value="2701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="6" />
@@ -234,18 +223,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -268,8 +245,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/MessagingServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="172">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/messaging/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dat110-project1/src/no/hvl/dat110/rpc/RPCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>

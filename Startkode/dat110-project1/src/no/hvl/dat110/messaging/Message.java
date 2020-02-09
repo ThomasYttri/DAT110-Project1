@@ -1,19 +1,16 @@
 package no.hvl.dat110.messaging;
 
-import java.util.Arrays;
-
-import no.hvl.dat110.TODO;
-
 public class Message {
 
+	private static int MSG_SIZE = 128;
 	private byte[] payload;
 
 	public Message(byte[] payload) {
 		//check for length within boundary
-		if (payload.length <= MESSAGE_SIZE){
+		if (payload.length <= MSG_SIZE){
 			this.payload = payload;
 		} else {
-			throw new IllegalArmumentException("Payload is out of boundary")
+			throw new IllegalArgumentException("Payload is out of boundary");
 		}
 	}
 
@@ -29,7 +26,7 @@ public class Message {
 		// encapulate/encode the payload of this message in the
 		// encoded byte array according to message format
 		
-		byte[] encoded = new byte[MESSAGE_SIZE];
+		byte[] encoded = new byte[MSG_SIZE];
 		encoded[0] = (byte) payload.length;
 		for(int i = 0; i < payload.length; i++){
 			encoded[i+1] = payload[i];
