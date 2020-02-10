@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4758d4-b007-45ec-8418-9ed559f45906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat110/system/controller/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat110/system/controller/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Testing/dat110-project1-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing/dat110-project1-tests/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -18,7 +17,19 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/rpc/tests/TestBooleanBooleanImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -34,12 +45,13 @@
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/Connection.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/system/controller/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/test/messaging/tests/TestMessage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="741" />
+    <option name="width" value="1204" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,7 +60,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -59,39 +70,52 @@
             <path>
               <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dat110" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="messaging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -147,11 +171,14 @@
       <updated>1581182974362</updated>
       <workItem from="1581182975802" duration="7688000" />
       <workItem from="1581207517259" duration="218000" />
+      <workItem from="1581349235142" duration="153000" />
+      <workItem from="1581349495865" duration="386000" />
+      <workItem from="1581349891520" duration="154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7906000" />
+    <option name="totallyTimeSpent" value="8599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,9 +190,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="23" width="1204" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12392427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -174,7 +202,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -311,10 +332,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/src/no/hvl/dat110/messaging/tests/TestMessage.java">
+    <entry file="file://$PROJECT_DIR$/Testing/src/no/hvl/dat110/messaging/tests/TestMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/test/messaging/tests/TestMessage.java" />
+    <entry file="file://$PROJECT_DIR$/test/messaging/tests/TestMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/messaging/tests/TestMessaging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rpc/tests/TestBooleanBooleanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
