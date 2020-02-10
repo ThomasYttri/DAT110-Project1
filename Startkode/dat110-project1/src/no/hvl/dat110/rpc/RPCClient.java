@@ -40,8 +40,9 @@ public class RPCClient {
 
 		Message msg = new Message(rpcrequest);
 		connection.send(msg);
-		
-		return connection.receive().getData();
+
+		byte[] reply = connection.receive().getData();
+		return reply;
 		
 	}
 

@@ -49,10 +49,9 @@ public class Connection {
 		// Hint: create a new Message object and use the decapsulate method
 
 		Message message = new Message();
-		byte[] recvbuf = new byte[SEGMENTSIZE];
 
 		try{
-			recvbuf = inStream.readNBytes(128);
+			byte [] recvbuf = inStream.readNBytes(128);
 			message.decapsulate(recvbuf);
 		} catch (IOException ex){
 			ex.printStackTrace();
