@@ -60,7 +60,7 @@ public class RPCUtils {
 			array[i] = data[i + 1];
 		}
 
-		
+
 		*/
 	}
 
