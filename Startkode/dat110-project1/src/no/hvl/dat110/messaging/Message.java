@@ -43,7 +43,7 @@ public class Message {
 		int length = received[0];
 		payload = new byte[length];
 		for(int i = 0; i < length; i++){
-			payload[i] = received[i+1];
+			payload[i] = received[i + 1];
 		}
 		
 	}

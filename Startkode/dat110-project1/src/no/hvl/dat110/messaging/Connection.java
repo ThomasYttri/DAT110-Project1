@@ -46,13 +46,13 @@ public class Connection {
 		// read a segment (128 bytes) from the input stream and decapsulate into message
 		// Hint: create a new Message object and use the decapsulate method
 
-		Message message = null;
+		Message message = new Message();
 		byte[] recvbuf = null;
 
 		try{
 			recvbuf = inStream.readNBytes(128);
-		} catch (IOException e){
-			e.printStackTrace();
+		} catch (IOException ex){
+			ex.printStackTrace();
 		}
 
 		message.decapsulate(recvbuf);
@@ -65,13 +65,11 @@ public class Connection {
 	public void close() {
 
 		try {
-
 			outStream.close();
 			inStream.close();
-
 			socket.close();
-		} catch (IOException ex) {
 
+		} catch (IOException ex) {
 			System.out.println("Connection: " + ex.getMessage());
 			ex.printStackTrace();
 		}

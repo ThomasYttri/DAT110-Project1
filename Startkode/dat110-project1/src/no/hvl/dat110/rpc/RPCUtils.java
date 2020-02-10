@@ -27,12 +27,14 @@ public class RPCUtils {
 
 	public static String unmarshallString(byte[] data) {
 		// Unmarshall String contained in data into decoded
+		String decoded;
+		byte[] array = new byte[data.length - 1];
 
-		String decoded = null;
-
-		for(int i = 0; i < data.length; i++) {
-			decoded += data[i + 1];
+		for(int i = 0; i < array.length; i++) {
+			array[i] = data[i + 1];
 		}
+
+		decoded = new String(array);
 
 		return decoded;
 	}
