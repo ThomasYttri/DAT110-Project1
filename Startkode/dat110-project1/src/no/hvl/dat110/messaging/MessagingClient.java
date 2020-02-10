@@ -27,8 +27,8 @@ public class MessagingClient {
 		try {
 			clientSocket = new Socket(server, port);
 			connection = new Connection(clientSocket);
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (IOException ex) {
+			ex.printStackTrace();
 		}
 
 		return connection;

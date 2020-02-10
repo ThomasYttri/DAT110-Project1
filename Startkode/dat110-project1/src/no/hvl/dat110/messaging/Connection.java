@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
+import static no.hvl.dat110.messaging.MessageConfig.SEGMENTSIZE;
+
 public class Connection {
 
 	private DataOutputStream outStream; // for writing bytes to the underlying TCP connection
@@ -32,12 +34,12 @@ public class Connection {
 		// encapsulate the data contained in the message and write to the output stream
 		// Hint: use the encapsulate method on the message
 
-		byte[] encapsulated = message.encapsulate();
+		//byte[] encapsulated = message.encapsulate();
 
 		try {
-			outStream.write(encapsulated);
-		} catch (IOException e){
-			e.printStackTrace();
+			outStream.write(message.encapsulate());
+		} catch (IOException ex){
+			ex.printStackTrace();
 		}
 
 	}
@@ -47,15 +49,14 @@ public class Connection {
 		// Hint: create a new Message object and use the decapsulate method
 
 		Message message = new Message();
-		byte[] recvbuf = null;
+		byte[] recvbuf = new byte[SEGMENTSIZE];
 
 		try{
 			recvbuf = inStream.readNBytes(128);
+			message.decapsulate(recvbuf);
 		} catch (IOException ex){
 			ex.printStackTrace();
 		}
-
-		message.decapsulate(recvbuf);
 
 		return message;
 

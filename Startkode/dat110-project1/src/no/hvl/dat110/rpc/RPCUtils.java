@@ -52,6 +52,16 @@ public class RPCUtils {
 	public static void unmarshallVoid(byte[] data) {
 
 		// TODO: unmarshall void type
+		/*
+
+		byte[] array = new byte[data.length - 1];
+
+		for(int i = 0; i < array.length; i++) {
+			array[i] = data[i + 1];
+		}
+
+		
+		*/
 	}
 
 	public static byte[] marshallBoolean(byte rpcid, boolean b) {
