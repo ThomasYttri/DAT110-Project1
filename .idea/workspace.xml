@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db78a15-73aa-4ffc-83b0-6071cca09043" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/system/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/system/controller/Controller.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,17 +29,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="510">
               <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/system/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -67,13 +75,13 @@
         <option value="$PROJECT_DIR$/src/Messaging/Message.java" />
         <option value="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/Connection.java" />
         <option value="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java" />
+        <option value="$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/system/controller/Controller.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
     <option name="y" value="23" />
-    <option name="width" value="674" />
+    <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectView">
@@ -144,6 +152,29 @@
               <item name="dat110" type="462c0819:PsiDirectoryNode" />
               <item name="messaging" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DAT110-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT110-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="Startkode" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="hvl" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAT110-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAT110-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="Startkode" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="hvl" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -187,17 +218,18 @@
       <workItem from="1581171009874" duration="759000" />
       <workItem from="1581207007882" duration="179000" />
       <workItem from="1581366629461" duration="1295000" />
+      <workItem from="1581720828138" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4582000" />
+    <option name="totallyTimeSpent" value="4620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="23" width="674" height="806" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3227848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1502146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,20 +284,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessageConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="510">
           <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessageConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/messaging/MessagingClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startkode/dat110-project1/src/no/hvl/dat110/system/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
         </state>
       </provider>
     </entry>

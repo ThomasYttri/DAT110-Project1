@@ -55,6 +55,7 @@ public class Controller  {
 			} catch (InterruptedException ie) {
 				ie.printStackTrace();
 			}
+			i++;
 		}
 		
 		stopdisplay.stop();
